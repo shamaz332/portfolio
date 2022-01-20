@@ -1,0 +1,59 @@
+:root {
+  --white: #eaeaea;
+  --blue-100: #BBDEFB;
+  --blue-200: #90CAF9;
+  --blue-300: #64B5F6;
+  --blue-400: #42A5F5;
+  --blue-500: #2196F3;
+  --blue-600: #1E88E5;
+  --blue-700: #1976D2;
+  --blue-800: #1565C0;
+  --blue-900: #0D47A1;
+
+  --bg-color-1: #1A3A59;
+  --bg-color-2: #193454;
+  --link-color: var(--blue-600);
+  --hover-color: var(--blue-400);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color-2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--white);
+  border-radius: 10px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Raleway, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  scroll-behavior: smooth;
+  color: var(--white);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--hover-color);
+  cursor: pointer;
+}
+
+p {
+  margin: 15px;
+}
