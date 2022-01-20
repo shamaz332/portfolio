@@ -8,7 +8,7 @@ module.exports = {
     return [
       {
         source: '/resume',
-        destination: '/resume/jacky-ly-resume.pdf',
+        destination: '/resume/ShamazResume.pdf',
         permanent: true,
       },
     ]

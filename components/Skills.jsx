@@ -1,5 +1,6 @@
-import { FaHtml5, FaReact, FaPython } from 'react-icons/fa';
-import { SiCss3, SiJavascript, SiFirebase } from 'react-icons/si';
+import { FaGitAlt, FaGithub, FaHtml5, FaReact, FaVue, FaVuejs } from 'react-icons/fa';
+import { SiBootstrap, SiCss3, SiFirebase, SiJavascript, SiJira, SiMaterialui, SiRedux, SiTailwindcss, SiVuetify } from 'react-icons/si';
+
 import styles from '../styles/Skills.module.css';
 
 export default function Skills() {
@@ -24,12 +25,44 @@ export default function Skills() {
                     <p>React</p>
                 </div>
                 <div className={styles.icon}>
-                    <SiFirebase style={{ color: '#FFCA28' }} />
-                    <p>Firebase</p>
+                    <SiRedux style={{ color: '#764abc' }} />
+                    <p>Redux</p>
+                </div>
+                               <div className={styles.icon}>
+                    <FaVuejs style={{ color: '#41b883' }} />
+                    <p>Vue</p>
                 </div>
                 <div className={styles.icon}>
-                    <FaPython style={{ color: '#FFFFFF' }} />
-                    <p>Python</p>
+                    <h3 style={{ color: '#41b883' }} >VueX</h3>
+                    <p>VueX</p>
+                </div>
+                <div className={styles.icon}>
+                    <SiMaterialui style={{ color: '#007fff' }} />
+                    <p>Material UI</p>
+                </div>
+                <div className={styles.icon}>
+                    <SiVuetify style={{ color: '#7bc6ff' }} />
+                    <p>Vuetify</p>
+                </div>
+                <div className={styles.icon}>
+                    <SiTailwindcss style={{ color: '#38bdf8' }} />
+                    <p>Tailwindcss</p>
+                </div>
+                <div className={styles.icon}>
+                    <SiBootstrap style={{ color: '#7952b3' }} />
+                    <p>Bootstrap</p>
+                </div>
+                <div className={styles.icon}>
+                    <FaGitAlt style={{ color: '#f44d27' }} />
+                    <p>Git</p>
+                </div>
+                <div className={styles.icon}>
+                    <FaGithub style={{ color: '#8250df' }} />
+                    <p>GitHub</p>
+                </div>
+                  <div className={styles.icon}>
+                    <SiJira style={{ color: '#2684ff' }} />
+                    <p>Jira</p>
                 </div>
             </div>
         </div>

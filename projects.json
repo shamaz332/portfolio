@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "title": "Discover Asian Dramas",
-        "desc": "Discover and search for popular Asian dramas in Korean, Japanese, Chinese, and more!",
-        "thumbnail": "/thumbnails/asian-dramas.png",
-        "url": "https://dramas.jackyly.ca/",
-        "github": "https://github.com/lyjacky11/kdrama",
-        "langs": "HTML5, CSS3, React",
-        "tools": "TMDB API"
+        "title": "Effortless",
+        "desc": "Effortless is the website for selling purchasing of crypto currency. This is only the frontend Design",
+        "thumbnail": "/thumbnails/effortless.png",
+        "url": "https://agitated-lamport-bf479f.netlify.app/",
+        "github": "https://github.com/shamaz332/effortless",
+        "langs": "HTML5, CSS3, React, Tailwindcss, React Charts ",
+        "tools": "Netlify"
 
     },
     {
@@ -16,7 +16,7 @@
         "desc": "Search and rate movies you have watched! Get recommended movies based on other user ratings!",
         "thumbnail": "/thumbnails/movie-finder.png",
         "url": "https://cps842-movie-ratings.web.app/",
-        "github": "https://github.com/lyjacky11/movie-finder",
+        "github": "https://github.com/shamaz332/Language-translator",
         "langs": "HTML5, CSS3, React",
         "tools": "Firebase, Firestore, TMDB API"
     },

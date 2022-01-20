@@ -1,12 +1,13 @@
-import { serverUrl, pageTitle, pageDesc, pageAuthor, pageTheme, faviconUrl, imageUrl } from '../constants';
-import projects from '../projects.json';
+import { faviconUrl, imageUrl, pageAuthor, pageDesc, pageTheme, pageTitle, serverUrl } from '../constants';
+
+import About from '../components/About';
+import Footer from '../components/Footer';
 import Head from 'next/head';
 import Header from '../components/Header';
 import Profile from '../components/Profile';
-import About from '../components/About';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
-import Footer from '../components/Footer';
+import projects from '../projects.json';
 import styles from '../styles/main.module.css';
 
 export default function Main() {
@@ -28,7 +29,6 @@ export default function Main() {
         <meta property="og:url" content={serverUrl} />
         <meta property="og:title" content={pageTitle} />
         <meta property="og:description" content={pageDesc} />
-        <meta property="og:image" content={imageUrl} />
         
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={serverUrl} />

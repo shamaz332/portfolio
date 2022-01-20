@@ -4,21 +4,21 @@ const remoteServer = 'https://jackyly.ca';
 
 export const serverUrl = devEnv ? localServer : remoteServer;
 
-export const email = 'jacky@jackyly.ca';
+export const email = 'shamazsaeed332@gmail.com';
 export const contactUrl = 'mailto:' + email;
-export const gitHubUrl = 'https://github.com/lyjacky11';
+export const gitHubUrl = 'https://github.com/shamaz332';
 export const projectsUrl = gitHubUrl + '?tab=repositories';
-export const linkedinUrl = 'https://www.linkedin.com/in/lyjacky11';
+export const linkedinUrl = 'https://www.linkedin.com/in/shamaz-saeed';
 
-const localResume = '/resume/jacky-ly-resume.pdf';
+const localResume = '/resume/ShamazResume.pdf';
 const gDocsResume = 'https://docs.google.com/viewer?url=' + remoteServer + localResume + '&embedded=true';
 export const resumeUrl = devEnv ? localResume : gDocsResume;
 
-export const pageAuthor = 'Jacky Ly';
-export const pageTitle = pageAuthor + ' | Ryerson CS Co-op';
-export const pageDesc = 'Hi there! I am Jacky Ly, a co-op student studying Computer Science at Ryerson University. Check out my projects on GitHub! - @lyjacky11';
+export const pageAuthor = 'Shamaz Saeed';
+export const pageTitle = pageAuthor + ' | Fullstack Dev';
+export const pageDesc = 'Hi there! I am Shamaz Saeed, a Full-Stack Developer at NSTOP Group AB. Check out my projects on GitHub! - @shamaz332';
 export const pageTheme = '#1A3A59';
 
 export const avatarUrl = '/img/profile.png';
 export const faviconUrl = '/favicon.ico';
-export const imageUrl = remoteServer + '/img/cover.png';
+export const imageUrl = remoteServer + '/img/coverr.png';
