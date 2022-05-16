@@ -12,52 +12,22 @@
     },
     {
         "id": 2,
-        "title": "Movie Finder",
-        "desc": "Search and rate movies you have watched! Get recommended movies based on other user ratings!",
-        "thumbnail": "/thumbnails/movie-finder.png",
-        "url": "https://cps842-movie-ratings.web.app/",
-        "github": "https://github.com/shamaz332/Language-translator",
+        "title": "Mint NFT's",
+        "desc": "Login with Metamask wallet and Mint available nft to you own address",
+        "thumbnail": "/thumbnails/nft.png",
+        "url": "https://nft-minting-mocha.vercel.app/",
+        "github": "https://github.com/shamaz332/nft-minting",
         "langs": "HTML5, CSS3, React",
-        "tools": "Firebase, Firestore, TMDB API"
+        "tools": "Third WEB , Sanity CMS , Meta Mask Wallet"
     },
     {
         "id": 3,
-        "title": "Toronto Food Places",
-        "desc": "Displays a list of various food places in Toronto and surrounding areas! Includes Google Maps of each place.",
-        "thumbnail": "/thumbnails/food-places.png",
-        "url": "https://foods.jackyly.ca/",
-        "github": "https://github.com/lyjacky11/foods-react",
-        "langs": "HTML5, CSS3, React",
-        "tools": "JSON, Google Maps API"
-    },
-    {
-        "id": 4,
-        "title": "Reactwitter",
-        "desc": "A clone of the Twitter desktop application. This project uses Firebase for user authentication.",
-        "thumbnail": "/thumbnails/twitter.png",
-        "url": "https://reactwitter.jackyly.ca/",
-        "github": "https://github.com/lyjacky11/reactwitter",
-        "langs": "HTML5, CSS3, React",
-        "tools": "Firebase, Firestore DB"
-    },
-    {
-        "id": 5,
-        "title": "Time Sheet Calculator",
-        "desc": "Calculates the number of hours worked based on the shift's start, break, and end times.",
-        "thumbnail": "/thumbnails/time-sheets.png",
-        "url": "https://timesheet.jackyly.ca/",
-        "github": "https://github.com/lyjacky11/timesheet-react",
-        "langs": "HTML5, CSS3, React",
-        "tools": "Google Calendar API"
-    },
-    {
-        "id": 6,
-        "title": "Stock Market Discord Bot",
-        "desc": "A custom Discord bot that fetches stock market information from Yahoo Finance API.",
-        "thumbnail": "/thumbnails/stock-market.png",
-        "url": "https://discord.com/oauth2/authorize?&client_id=793278321600888912&scope=bot&permissions=67584",
-        "github": "https://github.com/lyjacky11/stock-market-bot",
-        "langs": "Python, discord.py Library",
-        "tools": "Yahoo Finance API, Google Cloud VM"
+        "title": "Air BNB Clone",
+        "desc": "Clone AirBNB design and also added search functionality",
+        "thumbnail": "/thumbnails/airbnb.png",
+        "url": "https://airbnb-shamaz332.vercel.app/",
+        "github": "https://github.com/shamaz332/Airbnb",
+        "langs": "HTML5, CSS3, Tailwind , React",
+        "tools": "JSON, Map Box"
     }
 ]

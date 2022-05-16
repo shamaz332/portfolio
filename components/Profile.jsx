@@ -10,7 +10,7 @@ export default function Profile() {
         <div className={styles.profile}>
             <Scroll to="about" activeClass="active" spy={true}><Image className={styles.avatar} src={avatarUrl} alt="Avatar" width={175} height={175} /></Scroll>
             <h1 className={styles.displayName}>Shamaz Saeed</h1>
-            <p className={styles.position}>Web Developer</p>
+            <p className={styles.position}>FrontEnd Web Developer</p>
                 <div className={`${styles.resumeDiv} animate`}><Link href={resumeUrl}><a className={styles.resumeBtn} target="_blank">View Resume</a></Link></div>
         </div>
     )

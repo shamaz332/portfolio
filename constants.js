@@ -15,8 +15,8 @@ const gDocsResume = 'https://docs.google.com/viewer?url=' + remoteServer + local
 export const resumeUrl = devEnv ? localResume : gDocsResume;
 
 export const pageAuthor = 'Shamaz Saeed';
-export const pageTitle = pageAuthor + ' | Fullstack Dev';
-export const pageDesc = 'Hi there! I am Shamaz Saeed, a Full-Stack Developer at NSTOP Group AB. Check out my projects on GitHub! - @shamaz332';
+export const pageTitle = pageAuthor + ' | Frontend Dev';
+export const pageDesc = 'Hi there! I am Shamaz Saeed, a Frontend Developer at NSTOP Group AB. Check out my projects on GitHub! - @shamaz332';
 export const pageTheme = '#1A3A59';
 
 export const avatarUrl = '/img/profile.png';
